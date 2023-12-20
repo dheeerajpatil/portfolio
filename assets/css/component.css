@@ -582,7 +582,7 @@ p {
 
 .service {
     background-color: #0a0a0a;
-    padding-bottom: 200px;        
+    padding-bottom: 0px;        
 }
 
 .service .service-wrap {
@@ -694,7 +694,9 @@ p {
 }
 
 .logos .client-wrap {
-    padding: 60px 0px;
+    padding: 20px 0px;
+    font-size: 22px;
+    font-weight: 600;
 }
 
 .logos img {
