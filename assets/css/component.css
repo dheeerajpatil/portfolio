@@ -197,7 +197,7 @@ p {
 
 /******** MAIN SCREEN WRAP SECTION ********/
 
-.wrap { height: 100%; }
+.main-wrap { height: 100%; }
 
 .bl-main {
 	position: absolute;
@@ -206,7 +206,7 @@ p {
 	overflow: hidden;
 }
 
-.bl-box {
+.box-l {
     position: relative;
     width: 100%;
     height: 100%;
@@ -236,7 +236,7 @@ p {
     align-items: center;
 }
 
-.bl-box h2 {
+.box-l h2 {
     margin: 0;   
     font-size: 38pt;
     font-weight: 700;
@@ -330,7 +330,7 @@ p {
 
 /******** RIGHT SIDE SECTION ********/
 
-.bl-box h1 {
+.box-l h1 {
     color: #1b1b1b;
     font-size: 22pt;
     font-weight: 400;
@@ -437,8 +437,8 @@ p {
 .about-us-img:before{
     position: absolute;
     content: " ";
-    top:55px;
-    left:-23px;
+    top:-40px;
+    left:-40px;
     border: 2px solid rgba(255, 255, 255, .2);
     width: 100%;
     height: 100%;
@@ -1218,26 +1218,26 @@ div.bl-panel-items > div.bl-hide-current-work {
 	opacity: 0;
 }
 
-.bl-box {
+.box-l {
 	-webkit-transition: opacity 0.2s linear 0.5s;
 	-moz-transition: opacity 0.2s linear 0.5s;
 	transition: opacity 0.2s linear 0.5s;
 }
 
-section.bl-expand .bl-box {
+section.bl-expand .box-l {
 	opacity: 0;
 	-webkit-transition: opacity 0s linear;
 	-moz-transition: opacity 0s linear;
 	transition: opacity 0s linear;
 }
 
-.bl-box h2 {
+.box-l h2 {
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
 }
 
-.no-touch section:not(.bl-expand) .bl-box:hover h2 {
+.no-touch section:not(.bl-expand) .box-l:hover h2 {
 	 
 }
 
@@ -1259,11 +1259,11 @@ section.bl-expand .bl-icon-close {
 
 @media screen and (max-width: 46.5em) {
 	.bl-content,
-	.bl-box {
+	.box-l {
 		font-size: 75%;
 	}
 
-	.bl-expand .bl-box {
+	.bl-expand .box-l {
 		height: 130px;
 	}
 
@@ -1465,7 +1465,7 @@ section.bl-expand .bl-icon-close {
        .about h3 {
          font-size: 30pt;
        }
-       .bl-box h1 {
+       .box-l h1 {
          font-size: 28pt;
        } 
        .work-title {
@@ -1550,7 +1550,7 @@ section.bl-expand .bl-icon-close {
        .about h3 {
          font-size: 16pt;
        }
-       .bl-box h1 {
+       .box-l h1 {
          font-size: 16pt;
        }  
        .bl-content, 
@@ -1614,7 +1614,7 @@ section.bl-expand .bl-icon-close {
        .about h3 {
          font-size: 16pt;
        }
-       .bl-box h1 {
+       .box-l h1 {
          font-size: 16pt;
        } 
        .contact .col-xs-12 {
@@ -1642,7 +1642,7 @@ section.bl-expand .bl-icon-close {
        .about h3 {
          font-size: 16pt;
        }
-       .bl-box h1 {
+       .box-l h1 {
          font-size: 16pt;
        } 
        .bl-main > section:first-child {
