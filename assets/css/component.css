@@ -16,7 +16,7 @@
 /*   13 - PORTFOLIO SECTION */
 /*   14 - RESPONSIVE SECTION */
 
-/******** GENERAL SETTINGS SECTION START ********/
+/***** GENERAL SETTINGS SECTION START ******/
 
 @font-face {
     font-family: 'icomoon';
@@ -178,7 +178,7 @@ a:hover {
     color: #fff;
 }
 
-/******** TYPOGRAPHY SECTION START ********/
+/***** TYPOGRAPHY SECTION START ******/
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Open Sans', sans-serif;
@@ -195,7 +195,7 @@ p {
     letter-spacing: 2pt; 
 }
 
-/******** MAIN SCREEN WRAP SECTION ********/
+/***** MAIN SCREEN WRAP SECTION ******/
 
 .main-wrap { height: 100%; }
 
@@ -274,7 +274,7 @@ p {
 	background: #1b1b1b;
 }
 
-/******** LEFT SIDE SECTION ********/
+/***** LEFT SIDE SECTION ******/
 
 .about {
 /*    background: url('../images/ava.jpg') no-repeat center center;*/
@@ -328,7 +328,7 @@ p {
     color: #1b1b1b;
 }
 
-/******** RIGHT SIDE SECTION ********/
+/***** RIGHT SIDE SECTION ******/
 
 .box-l h1 {
     color: #1b1b1b;
@@ -358,7 +358,7 @@ p {
     box-shadow: 10px 10px 0 0 rgba(0, 0, 0, 0.9); 
 }
 
-/******** HEADER SECTION ********/
+/***** HEADER SECTION ******/
 
 .header {
   background: url('../images/ava.jpg') no-repeat center center;
@@ -392,7 +392,7 @@ p {
 }
 
 
-/******** ABOUT SECTION START ********/
+/***** ABOUT SECTION START ******/
 
 .info {
     margin: 0;
@@ -473,7 +473,7 @@ p {
     color: #000000;
 }
  
-/******** RESUME SECTION START ********/
+/***** RESUME SECTION START ******/
 
 .resume {
     background-color: #0a0a0a;
@@ -525,7 +525,7 @@ p {
     background-color: rgba(255, 255, 255, .2);
 }
 
-/******** SKILLS SECTION START ********/
+/***** SKILLS SECTION START ******/
 
 .skill {
     background-color: #0a0a0a;
@@ -578,7 +578,7 @@ p {
     margin-top: 50px;
 }
 
-/******** SERVICES SECTION START ********/
+/***** SERVICES SECTION START ******/
 
 .service {
     background-color: #0a0a0a;
@@ -654,7 +654,7 @@ p {
     line-height: 21pt;
 }
 
-/******** CLIENTS SECTION START ********/
+/***** CLIENTS SECTION START ******/
 
 .clients {
 	background-color: #0a0a0a;
@@ -680,7 +680,7 @@ p {
     margin-bottom: 70px;
 }
 
-/******** LOGOS SECTION START ********/
+/***** LOGOS SECTION START ******/
 
 .logos {
     background: url('../images/client.jpg') no-repeat center center;
@@ -703,7 +703,7 @@ p {
     width: 50%;
 }
 
-/******** REVIEW SECTION START ********/
+/***** REVIEW SECTION START ******/
 
 .review {
     background-color: #1b1b1b;
@@ -771,7 +771,7 @@ p {
     color: #dcdcdc;
 }
 
-/******** CONTACT SECTION START ********/
+/***** CONTACT SECTION START ******/
 
 .contact {
     background-color: #0a0a0a;
@@ -898,7 +898,7 @@ p {
     margin-top: 50px;
 }
 
-/******** FOOTER SECTION START ********/
+/***** FOOTER SECTION START ******/
 
 footer {
     background-color: #1b1b1b;
@@ -912,7 +912,7 @@ footer h4 {
     color: #dcdcdc;
 }
 
-/******** SINGLE PROJECT PAGE SECTION START ********/
+/***** SINGLE PROJECT PAGE SECTION START ******/
 
 .work-title {
 	margin-top: 50px;
@@ -1040,7 +1040,7 @@ div.bl-panel-items > div > div {
     border: 8px solid #fff;
 }
 
-/******** WORKS SECTION START ********/
+/***** WORKS SECTION START ******/
 
 div.bl-panel-items,
 div.bl-panel-items > div {
@@ -1272,7 +1272,7 @@ section.bl-expand .bl-icon-close {
 	}
 }
 
-/******** PROJECT PAGE SECTION START ********/
+/***** PROJECT PAGE SECTION START ******/
 
 .single-project {
     background-color: #fff;
@@ -1459,7 +1459,7 @@ section.bl-expand .bl-icon-close {
     margin-top: 0px;
 }
 
-/******** RESPONSIVE SECTION START ********/
+/***** RESPONSIVE SECTION START ******/
 
     @media only screen and (min-width : 1920px) {
        .about h3 {
